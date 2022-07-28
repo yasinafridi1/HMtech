@@ -1,0 +1,15 @@
+{
+  "name": "Hmtechmern",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.18.1",
+    "express-ejs-layouts": "^2.5.0",
+    "path": "^0.12.7"
+  },
+  "scripts": {
+    "dev": "nodemon app.js -e js,ejs"
+  }
+}
